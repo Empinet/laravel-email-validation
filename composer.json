@@ -37,6 +37,11 @@
         "stan": "phpstan analyse",
         "phpunit": "phpunit"
     },
+    "config": {
+        "audit": {
+            "block-insecure": false
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
