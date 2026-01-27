@@ -23,7 +23,7 @@ php artisan vendor:publish --tag=easyemailapi-config
 ## Getting an API token
 
 To use this package, you need an API token from EasyEmailAPI.
-You can create a free account and get your token at: https://easyemailapi.com
+You can create a free account and get your token at https://easyemailapi.com
 
 EasyEmailAPI offers a free tier, which is usually enough for testing, small projects, and personal applications.
 
