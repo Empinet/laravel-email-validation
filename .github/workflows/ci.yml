@@ -48,8 +48,7 @@ jobs:
             "illuminate/validation:${{ matrix.laravel }}" \
             --no-update
 
-      - name: Remove Larastan for Laravel 12
-        if: matrix.laravel == '^12.0'
+      - name: Remove Larastan from matrix
         run: composer remove larastan/larastan --dev --no-update
 
       - name: Install dependencies
