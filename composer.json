@@ -1,0 +1,48 @@
+{
+    "name": "empinet/laravel-email-validation",
+    "description": "Laravel validation rule for EasyEmailAPI",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "illuminate/contracts": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/http": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/validation": "^8.0|^9.0|^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.0",
+        "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
+        "phpunit/phpunit": "^9.5|^10.0|^11.0",
+        "larastan/larastan": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Empinet\\EasyEmailApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Empinet\\EasyEmailApi\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "@pint",
+            "@stan",
+            "@phpunit"
+        ],
+        "pint": "pint --test",
+        "stan": "phpstan analyse",
+        "phpunit": "phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Empinet\\EasyEmailApi\\Providers\\EasyEmailApiServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
