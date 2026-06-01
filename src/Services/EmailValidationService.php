@@ -38,7 +38,7 @@ class EmailValidationService
             return $this->handleFallback($email, $exception);
         }
 
-        if (! is_array($response) || ! array_key_exists('valid', $response)) {
+        if (! array_key_exists('valid', $response)) {
             return $this->handleFallback($email, null, 'invalid_response');
         }
 
