@@ -22,11 +22,11 @@ jobs:
       - name: Install dependencies
         run: |
           composer require \
-            "orchestra/testbench:^10.0" \
-            "illuminate/contracts:^12.0" \
-            "illuminate/http:^12.0" \
-            "illuminate/support:^12.0" \
-            "illuminate/validation:^12.0" \
+            "orchestra/testbench:^9.0" \
+            "illuminate/contracts:^11.0" \
+            "illuminate/http:^11.0" \
+            "illuminate/support:^11.0" \
+            "illuminate/validation:^11.0" \
             --no-update
           composer update --no-interaction --prefer-dist --no-progress
 
