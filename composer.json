@@ -15,7 +15,7 @@
         "guzzlehttp/guzzle": "^7.2",
         "orchestra/testbench": "^8.0|^9.0|^10.0",
         "phpunit/phpunit": "^10.5|^11.0",
-        "larastan/larastan": "^2.0"
+        "larastan/larastan": "^3.0"
     },
     "autoload": {
         "psr-4": {
