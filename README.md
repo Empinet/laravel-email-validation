@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/Empinet/laravel-email-validation/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Empinet/laravel-email-validation/actions/workflows/ci.yml)
 [![Coverage](https://github.com/Empinet/laravel-email-validation/actions/workflows/coverage.yml/badge.svg?branch=master)](https://github.com/Empinet/laravel-email-validation/actions/workflows/coverage.yml)
-[![Release](https://github.com/Empinet/laravel-email-validation/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/Empinet/laravel-email-validation/actions/workflows/release.yml)
+[![Release](https://github.com/Empinet/laravel-email-validation/actions/workflows/release-please.yml/badge.svg?branch=master)](https://github.com/Empinet/laravel-email-validation/actions/workflows/release-please.yml)
 
 Strict email validation for Laravel using EasyEmailAPI.
 
