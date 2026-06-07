@@ -22,7 +22,7 @@ jobs:
           tools: composer:v2
 
       - name: Install dependencies
-        run: composer update --no-interaction --prefer-dist --no-progress
+        run: composer update --no-interaction --prefer-dist --no-progress --no-audit
 
       - name: Run tests with coverage
         run: |

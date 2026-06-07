@@ -20,7 +20,7 @@ jobs:
           tools: composer:v2
 
       - name: Install dependencies
-        run: composer update --no-interaction --prefer-dist --no-progress
+        run: composer update --no-interaction --prefer-dist --no-progress --no-audit
 
       - name: Run Pint
         run: vendor/bin/pint --test

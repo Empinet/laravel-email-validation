@@ -28,7 +28,7 @@ jobs:
             "illuminate/support:^12.0" \
             "illuminate/validation:^12.0" \
             --no-update
-          composer update --no-interaction --prefer-dist --no-progress
+          composer update --no-interaction --prefer-dist --no-progress --no-audit
 
       - name: Run Larastan
         run: vendor/bin/phpstan analyse
