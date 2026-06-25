@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/Empinet/laravel-email-validation/compare/v1.0.0...v1.1.0) (2026-06-25)
+
+
+### Features
+
+* add Laravel 13 support ([#6](https://github.com/Empinet/laravel-email-validation/issues/6)) ([134f2b1](https://github.com/Empinet/laravel-email-validation/commit/134f2b19f0aaf7541bd2b8cab0b53a4673a6a5b6))
+
 ## [1.0.0](https://github.com/Empinet/laravel-email-validation/compare/v0.2.0...v1.0.0) (2026-06-01)
 
 
